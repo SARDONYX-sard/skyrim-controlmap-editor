@@ -1,0 +1,237 @@
+{
+  "basics": {
+    "Forward": "Forward",
+    "Back": "Back",
+    "Strafe Left": "Strafe Left",
+    "Strafe Right": "Strafe Right",
+    "Move": "Move",
+    "Look": "Look",
+    "Left Attack/Block": "Left Attack/Block",
+    "Right Attack/Block": "Right Attack/Block",
+    "Activate": "Activate",
+    "Ready Weapon": "Ready Weapon",
+    "Tween Menu": "Tween Menu",
+    "Toggle POV": "Toggle POV",
+    "Zoom Out": "Zoom Out",
+    "Zoom In": "Zoom In",
+    "Jump": "Jump",
+    "Sprint": "Sprint",
+    "Shout": "Shout",
+    "Sneak": "Sneak",
+    "Run": "Run",
+    "Toggle Always Run": "Toggle Always Run",
+    "Auto-Move": "Auto-Move",
+    "Favorites": "Favorites",
+    "Hotkey1": "Hotkey1",
+    "Hotkey2": "Hotkey2",
+    "Hotkey3": "Hotkey3",
+    "Hotkey4": "Hotkey4",
+    "Hotkey5": "Hotkey5",
+    "Hotkey6": "Hotkey6",
+    "Hotkey7": "Hotkey7",
+    "Hotkey8": "Hotkey8",
+    "Quicksave": "Quicksave",
+    "Quickload": "Quickload",
+    "Wait": "Wait",
+    "Journal": "Journal",
+    "Pause": "Pause",
+    "Screenshot": "Screenshot",
+    "Multi-Screenshot": "Multi-Screenshot",
+    "Console": "Console",
+    "CameraPath": "CameraPath",
+    "Quick Inventory": "Quick Inventory",
+    "Quick Magic": "Quick Magic",
+    "Quick Stats": "Quick Stats",
+    "Quick Map": "Quick Map"
+  },
+
+  // Menu Mode
+  //
+  //B + BACK - Console
+  //
+  "Menu Mode": {
+    "Accept": "Accept",
+    "Cancel": "Cancel",
+    "Up": "Up",
+    "Down": "Down",
+    "Left": "Left",
+    "Right": "Right",
+    "Left Stick": "Left Stick",
+    "Console": "Console"
+  },
+
+  // Console
+  //
+  //B + BACK - Console
+  //
+  "Console": {
+    "PickPrevious": "PickPrevious",
+    "PickNext": "PickNext",
+    "Up": "Up",
+    "Down": "Down",
+    "PageUp": "PageUp",
+    "PageDown": "PageDown",
+    "Console": "Console",
+    "NextFocus": "NextFocus",
+    "PreviousFocus": "PreviousFocus"
+  },
+
+  // Item Menus
+  "Item Menus": {
+    "LeftEquip": "LeftEquip",
+    "RightEquip": "RightEquip",
+    "Item Zoom": "Item Zoom",
+    "Rotate": "Rotate",
+    "XButton": "XButton",
+    "YButton": "YButton",
+    "Cursor": "Cursor"
+  },
+
+  // Inventory
+  //
+  //    RIGHT SHOULDER/RB - Is used to charge items in the inventory by default.
+  //
+  "Inventory": {
+    "ChargeItem": "ChargeItem"
+  },
+
+  // Debug Text
+  "Debug Text": {
+    "PrevPage": "PrevPage",
+    "NextSubPage": "NextSubPage",
+    "PrevSubPage": "PrevSubPage",
+    "NextPage": "NextPage"
+  },
+
+  // Favorites menu
+  //
+  //D-PAD UP and D-PAD DOWN can no longer be used to navigate the favorites menu due to a conflict with
+  //the new hotkey assignments.  Use LEFT STICK for navigating the menu.
+  //
+  "Favorites menu": {
+    "Down": "Down",
+    "Up": "Up",
+    "Accept": "Accept",
+    "Cancel": "Cancel",
+    "Left Stick": "Left Stick",
+    "Cursor": "Cursor"
+  },
+
+  // Map Menu
+  //
+  //MAP MENU ADDITIONS
+  //
+  //    RIGHT STICK CLICK - Allows you to place a custom marker on the map. (Hard coded)
+  //    The D-PAD can now be used to navigate the map menu by scrolling in various directions, a big
+  //improvement in my opinion. The LEFT STICK continues to function as a cursor. (Hard coded)
+  //
+  "Map Menu": {
+    "Cancel": "Cancel",
+    "Look": "Look",
+    "Zoom In": "Zoom In",
+    "Zoom Out": "Zoom Out",
+    "MapLookMode": "MapLookMode",
+    "Click": "Click",
+    "PlacePlayerMarker": "PlacePlayerMarker",
+    "Cursor": "Cursor",
+    "PlayerPosition": "PlayerPosition",
+    "LocalMap": "LocalMap",
+    "LocalMapMoveMode": "LocalMapMoveMode",
+    "Up": "Up",
+    "Down": "Down",
+    "Left": "Left",
+    "Right": "Right"
+  },
+
+  // Stats
+  "Stats": {
+    "Rotate": "Rotate"
+  },
+
+  // Cursor
+  "Cursor": {
+    "Cursor": "Cursor",
+    "Click": "Click"
+  },
+
+  // Book
+  //
+  //    LEFT TRIGGER - Flip left page. (Hard coded)
+  //    RIGHT TRIGGER - Flip right page. (Hard coded)
+  //
+  "Book": {
+    "PrevPage": "PrevPage",
+    "NextPage": "NextPage"
+  },
+
+  // Debug overlay
+  "Debug overlay": {
+    "Console": "Console",
+    "NextFocus": "NextFocus",
+    "PreviousFocus": "PreviousFocus",
+    "Up": "Up",
+    "Down": "Down",
+    "Left": "Left",
+    "Right": "Right",
+    "PageUp": "PageUp",
+    "PageDown": "PageDown",
+    "ToggleMinimize": "ToggleMinimize",
+    "ToggleMove": "ToggleMove",
+    "Close": "Close",
+    "F1": "F1",
+    "F10": "F10",
+    "F11": "F11",
+    "F12": "F12",
+    "F2": "F2",
+    "F3": "F3",
+    "F7": "F7",
+    "F8": "F8",
+    "F9": "F9",
+    "LTrigger": "LTrigger",
+    "RTrigger": "RTrigger",
+    "Backspace": "Backspace",
+    "Enter": "Enter",
+    "B": "B",
+    "X": "X",
+    "Y": "Y"
+  },
+
+  // Journal
+  "Journal": {
+    "Zoom In": "Zoom In",
+    "Zoom Out": "Zoom Out",
+    "XButton": "XButton",
+    "YButton": "YButton",
+    "TabSwitch": "TabSwitch"
+  },
+
+  // TFC mode
+  "TFC mode": {
+    "CameraZUp": "CameraZUp",
+    "CameraZDown": "CameraZDown",
+    "WorldZUp": "WorldZUp",
+    "WorldZDown": "WorldZDown",
+    "LockToZPlane": "LockToZPlane"
+  },
+
+  // Debug Map Menu-like mode (but not the actual map menu)
+  "Debug Map Menu-like mode": {
+    "Look": "Look",
+    "Zoom In": "Zoom In",
+    "Zoom Out": "Zoom Out",
+    "Move": "Move"
+  },
+
+  // Lockpicking
+  "Lockpicking": {
+    "RotatePick": "RotatePick",
+    "RotateLock": "RotateLock",
+    "DebugMode": "DebugMode",
+    "Cancel": "Cancel"
+  },
+
+  // Favor
+  "Favor": {
+    "Cancel": "Cancel"
+  }
+}
