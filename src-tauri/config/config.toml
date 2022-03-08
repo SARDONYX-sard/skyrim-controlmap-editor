@@ -1,0 +1,4 @@
+[general]
+theme = "light" # dark / light
+autosave = true # true / false
+lang = "en"     # en, ja, etc...
