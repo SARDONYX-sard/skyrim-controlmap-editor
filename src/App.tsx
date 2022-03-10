@@ -1,40 +1,28 @@
-import React from 'react'
-import logo from './logo.svg'
-import tauriCircles from './tauri.svg'
-import tauriWord from './wordmark.svg'
-import './App.css'
+import { Suspense } from "react";
+import "./App.css";
+import { BasicSpeedDial } from "./components/SpeedDial";
+import { ThemeSwitch } from "./components/Switch";
+import VerticalTabs from "./components/Tab";
+import { DarkThemeWithCustomPalette } from "./components/Theme";
+import { useMsg } from "./hooks/useMsg";
+import { useTheme } from "./hooks/useTheme";
 
 function App() {
+  const { theme } = useTheme();
+  const { msg } = useMsg();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="inline-logo">
-          <img src={tauriCircles} className="App-logo rotate" alt="logo" />
-          <img src={tauriWord} className="App-logo smaller" alt="logo" />
+    <Suspense fallback={<h1 color="white">Loading profile...</h1>}>
+      <DarkThemeWithCustomPalette>
+        <div className={`App ${theme}-theme`}>
+          <ThemeSwitch />
+          <p>{msg}</p>
+          <VerticalTabs />
         </div>
-        <a
-          className="App-link"
-          href="https://tauri.studio"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Tauri
-        </a>
-        <img src={logo} className="App-logo rotate" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  )
+        <BasicSpeedDial />
+      </DarkThemeWithCustomPalette>
+    </Suspense>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,47 @@
+.simple-keyboard {
+  max-width: 850px;
+}
+
+.simple-keyboard.hg-theme-default {
+  border-radius: 10px;
+  /* margin: 10px; */
+  /* width: calc(100% - 20px); */
+}
+
+.simple-keyboard.hg-layout-default .hg-button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-keyboard.hg-layout-default.dark-theme {
+  background: #272525;
+}
+
+.simple-keyboard.hg-layout-default.dark-theme .hg-button {
+  background: #4e4b4b;
+  color: #e4dcdc;
+}
+
+.simple-keyboard.hg-layout-default.light-theme {
+  background: #7a777780;
+}
+
+.simple-keyboard.hg-layout-default.light-theme .hg-button {
+  background: #f1f0f0;
+  color: #111111;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-blue {
+  background: #273d58ec;
+  color: rgb(255, 255, 255);
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-red {
+  background: #ff0000b3;
+}
+.simple-keyboard.hg-layout-default .hg-button.hg-highlight {
+  box-shadow: 0px 0px 40px 5px #ffff0080;
+  z-index: 1;
+}
